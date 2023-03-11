@@ -67,6 +67,13 @@ sudo apt install fonts-symbola fonts-linuxlibertine fonts-inconsolata fonts-emoj
 python3 -m pip install vortexdm --user --upgrade --no-cache
 ```
 
+RUN FOLOWING COMMAND TO RUN THE PROGRAM
+
+python3 vdm.py
+
+
+
+
 ## Running from source code inside virtual environment (Linux Only - Debian/Ubuntu Based Shown):
 1- Check python version (minimum version required is 3.7): `python3 --version`
 
