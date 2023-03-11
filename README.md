@@ -76,7 +76,12 @@ sudo apt install ffmpeg libcurl4-openssl-dev libssl-dev python3-pip python3-pil 
 sudo apt install fonts-symbola fonts-linuxlibertine fonts-inconsolata fonts-emojione
 ```
 
-3- Run below code to clone this repo, create Python virtual environment, install the requirements, create launch script, and finally run VDM
+3- Run below code to do following,
+  a- clone this repo, 
+  b- create Python virtual environment,
+  c- install the requirements,
+  d- create launch script, 
+  e- and finally run VDM.
 
 ```sh
 
@@ -95,21 +100,25 @@ python3 -m venv ./.env
 
 source ./.env/bin/activate
 
-### INSTALL ALL DEPENDENCIES FROM PIP
--------------------------------------
+### INSTALL ALL DEPENDENCIES FROM PIP AS MENTIONED IN requirements.txt
+-----------------------------------------------------------------------
 
 python3 -m pip install -r ./VortexDM/requirements.txt
 
-### WRITE NECESSARY COMMNDS TO SHELL SCRIPT FROM vdm.py TO vdm.sh
---------------------------------------------------------------------
-echo "source ./.env/bin/activate python3 ./VDM/vdm.py \$@ " > vdm.sh
+### CHANGE INTO VRTOX DIRECTORY CREATED BY GIT = ~/VortexDM
+###--------------------------------------------
 
-### MAKE SHELL SCRIPT vdm.sh EXECUTABL
+### WRITE NECESSARY COMMNDS TO SHELL SCRIPT FROM vdm.py TO vdm.sh, from within DIRECTORY CREATED BY GIT = ~/VortexDM
+--------------------------------------------------------------------
+echo "source ./.env/bin/activate
+python3 ./vdm.py \$@ " > vdm.sh
+
+### MAKE SHELL SCRIPT vdm.sh EXECUTABL , from within DIRECTORY CREATED BY GIT = ~/VortexDM
 ###---------------------------------
 
 chmod +x ./vdm.sh
 
-### RUN THE CREATED SHELL SCRIPT TO RUN VORTEX DOWNLOAD MANAGER PROGRAM
+### RUN THE CREATED SHELL SCRIPT TO RUN VORTEX DOWNLOAD MANAGER PROGRAM, , from within DIRECTORY CREATED BY GIT = ~/VortexDM
 ###--------------------------------------------------------------------
 
 ./vdm.sh
