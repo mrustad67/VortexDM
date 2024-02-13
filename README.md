@@ -1,3 +1,7 @@
+I HAVE TESTED AND RUN THIS IN LINUX MINT
+------------------------------------------
+
+
 i loved  using FireDM  when it was abondoned i was disoriented and searched for many months and finaly found VortexDM.  But although vortexDM is good but it has some bugs 
 1- during installation there are some spelling mistakes which fail installation.  i have corrected those commands in this fork
 2- second bug is that vortexDM fails to download batches.  batc download bug remains unfixed yet.
@@ -105,6 +109,10 @@ git clone https://github.com/mrustad67/VortexDM.git
 
 ###2--- CREATE VIRUAL ENVIORMENT TO RUN PYTHON VORTEX DM
 ###------------------------------------------------------
+
+## --    install  virtual envoirnment wit this command first
+
+apt install python3.10-venv
 
 python3 -m venv ./.env
 
