@@ -134,6 +134,8 @@ source ./.env/bin/activate
 ### INSTALL ALL DEPENDENCIES FROM PIP AS MENTIONED IN requirements.txt
 -----------------------------------------------------------------------
 
+python3 -m pip install -r ./requirements.txt
+or
 python3 -m pip install -r ./VortexDM/requirements.txt
 
 ### CHANGE INTO VRTOX DIRECTORY CREATED BY GIT = ~/VortexDM
