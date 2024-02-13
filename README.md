@@ -114,6 +114,8 @@ git clone https://github.com/mrustad67/VortexDM.git
 
 apt install python3.10-venv
 
+### -- CREATE VIRTUAL ENVIRMENT FOR vORTEXdm
+
 python3 -m venv ./.env
 
 ###  ACTIVATE VIRTAL ENVIRMENT FOR FUNCTIONING
