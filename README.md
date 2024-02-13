@@ -1,3 +1,9 @@
+i loved  using FireDM  when it was abondoned i was disoriented and searched for many months and finaly found VortexDM.  But although vortexDM is good but it has some bugs 
+1- during installation there are some spelling istakes which fail installation.  i have corrected those commands in this fork
+2- vortexDM fais to download batches.  it remains unfixed yet.
+
+i have made this fork to correct those commands which kept me from installing VortexDM.  so no other goes through trouble i had to go.  find correct commands below.
+
 # Renaming the project to Vortex Download Manager and will carry on where FireDM 2022.2.5 left off. Original project, FireDM, by Mahmoud Elshahat. RIP
 
 The original creator removed the project repository from Github but left it on PyPI. The latest version they published there, 2022.4.14, I believe was purposely sabotaged to not work and anybody who accepted the update in FireDM would be left with the broken version. ~~If you want to install from PyPI install 2022.2.5 and don't update. https://pypi.org/project/FireDM/2022.2.5~~ 2022.2.5 is now gone from PyPI.
