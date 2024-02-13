@@ -1,6 +1,6 @@
 i loved  using FireDM  when it was abondoned i was disoriented and searched for many months and finaly found VortexDM.  But although vortexDM is good but it has some bugs 
-1- during installation there are some spelling istakes which fail installation.  i have corrected those commands in this fork
-2- vortexDM fais to download batches.  it remains unfixed yet.
+1- during installation there are some spelling mistakes which fail installation.  i have corrected those commands in this fork
+2- second bug is that vortexDM fails to download batches.  batc download bug remains unfixed yet.
 
 i have made this fork to correct those commands which kept me from installing VortexDM.  so no other goes through trouble i had to go.  find correct commands below.
 
