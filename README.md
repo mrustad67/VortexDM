@@ -107,6 +107,14 @@ sudo apt install fonts-symbola fonts-linuxlibertine fonts-inconsolata fonts-emoj
 
 git clone https://github.com/mrustad67/VortexDM.git
 
+then change into newly created  VortexDM directory by   running
+
+cd VortexDM
+
+run ls command to varify contets
+
+
+
 ###2--- CREATE VIRUAL ENVIORMENT TO RUN PYTHON VORTEX DM
 ###------------------------------------------------------
 
