@@ -1,6 +1,7 @@
 I HAVE TESTED AND RUN THIS IN LINUX MINT
 ------------------------------------------
-
+this has unsolvefd bugs / still working on this
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 i loved  using FireDM  when it was abondoned i was disoriented and searched for many months and finaly found VortexDM.  But although vortexDM is good but it has some bugs 
 1- during installation there are some spelling mistakes which fail installation.  i have corrected those commands in this fork
