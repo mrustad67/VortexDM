@@ -97,7 +97,7 @@ echo "[Desktop Entry]
 Name=VortexDM
 GenericName=VortexDM
 Comment=Vortex Download Manager
-Exec=$VortexDMLSPATH
+Exec=bash -c $VortexDMLSPATH
 Icon=vortexdm
 Terminal=false
 Type=Application
